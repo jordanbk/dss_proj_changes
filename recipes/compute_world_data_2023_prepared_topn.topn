@@ -4,10 +4,46 @@
     "enabled": false
   },
   "retrievedColumnsSelectionMode": "ALL",
-  "firstRows": 1,
+  "firstRows": 10,
   "keys": [],
   "computedColumns": [],
-  "retrievedColumns": [],
+  "retrievedColumns": [
+    "Country",
+    "Density\n(P/Km2)",
+    "Abbreviation",
+    "Agricultural Land( %)",
+    "Land Area(Km2)",
+    "Armed Forces size",
+    "Birth Rate",
+    "Calling Code",
+    "Capital/Major City",
+    "Co2-Emissions",
+    "CPI",
+    "CPI Change (%)",
+    "Currency-Code",
+    "Fertility Rate",
+    "Forested Area (%)",
+    "Gasoline Price",
+    "GDP",
+    "Gross primary education enrollment (%)",
+    "Gross tertiary education enrollment (%)",
+    "Infant mortality",
+    "Largest city",
+    "Life expectancy",
+    "Maternal mortality ratio",
+    "Minimum wage",
+    "Official language",
+    "Out of pocket health expenditure",
+    "Physicians per thousand",
+    "Population",
+    "Population: Labor force participation (%)",
+    "Tax revenue (%)",
+    "Total tax rate",
+    "Unemployment rate",
+    "Urban_population",
+    "Latitude",
+    "Longitude"
+  ],
   "lastRows": 0,
   "duplicateCount": false,
   "engineParams": {
@@ -46,7 +82,12 @@
   },
   "rank": false,
   "denseRank": false,
-  "orders": [],
+  "orders": [
+    {
+      "column": "Armed Forces size",
+      "desc": false
+    }
+  ],
   "rowNumber": false,
   "outputColumnNameOverrides": {}
 }
