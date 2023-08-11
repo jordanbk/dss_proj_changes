@@ -3,7 +3,7 @@
   "neverRecomputeExistingPartitions": false,
   "optionalDependencies": false,
   "params": {
-    "schemaMode": "STRICT_SYNC",
+    "schemaMode": "FREE_SCHEMA_NAME_BASED",
     "forcePipelineableForTests": false,
     "engineParams": {
       "maxThreads": 4,
@@ -77,11 +77,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691767910618,
+    "lastModifiedOn": 1691767914154,
     "extendedProperties": {}
   },
   "creationTag": {
