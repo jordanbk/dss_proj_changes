@@ -49,13 +49,27 @@
       "alwaysShowComment": false
     },
     {
-      "preview": true,
+      "preview": false,
       "metaType": "PROCESSOR",
       "disabled": false,
       "type": "RemoveRowsOnEmpty",
       "params": {
         "columns": [
           "Minimum wage"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "Gasoline Price"
         ],
         "keep": false,
         "appliesTo": "SINGLE_COLUMN"
@@ -128,7 +142,12 @@
     "CPI": 134,
     "Tax revenue (%)": 128
   },
-  "sorting": [],
+  "sorting": [
+    {
+      "column": "Armed Forces size",
+      "ascending": false
+    }
+  ],
   "globalSearchQuery": "",
   "coloring": {
     "scheme": "MEANING_AND_STATUS",
