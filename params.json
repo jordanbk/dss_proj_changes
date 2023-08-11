@@ -14,7 +14,19 @@
     ]
   },
   "exposedObjects": {
-    "objects": []
+    "objects": [
+      {
+        "type": "DATASET",
+        "localName": "web_last_month",
+        "quickSharingEnabled": false,
+        "rules": [
+          {
+            "targetProject": "GCSTOBIGQUERY",
+            "appearOnFlow": true
+          }
+        ]
+      }
+    ]
   },
   "projectType": "REGULAR",
   "projectAppType": "REGULAR",
@@ -208,11 +220,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 4,
+    "versionNumber": 5,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691793425226,
+    "lastModifiedOn": 1691794731830,
     "extendedProperties": {}
   },
   "creationTag": {
