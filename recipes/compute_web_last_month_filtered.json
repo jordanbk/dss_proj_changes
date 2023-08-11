@@ -16,7 +16,7 @@
         "rules": []
       },
       "samplingMethod": "HEAD_SEQUENTIAL",
-      "maxRecords": 100000,
+      "maxRecords": 1000,
       "targetRatio": 0.02,
       "ascending": true,
       "withinFirstN": -1,
@@ -87,11 +87,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691760114835,
+    "lastModifiedOn": 1691760121338,
     "extendedProperties": {}
   },
   "creationTag": {
