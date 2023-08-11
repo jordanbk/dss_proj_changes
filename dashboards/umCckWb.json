@@ -9,8 +9,8 @@
             "box": {
               "top": 0,
               "left": 0,
-              "width": 8,
-              "height": 4
+              "width": 2,
+              "height": 2
             },
             "clickAction": "DO_NOTHING",
             "tileParams": {
@@ -39,11 +39,11 @@
   "name": "test_git\u0027s default dashboard",
   "showGrid": true,
   "versionTag": {
-    "versionNumber": 3,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691760288123,
+    "lastModifiedOn": 1691760281561,
     "extendedProperties": {}
   },
   "creationTag": {
