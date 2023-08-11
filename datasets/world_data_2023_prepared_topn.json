@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691759532867,
+    "lastModifiedOn": 1691759549672,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -93,7 +93,43 @@
     }
   },
   "schema": {
-    "columns": [],
+    "columns": [
+      {"name":"Country","type":"string"},
+      {"name":"Density\n(P/Km2)","type":"string"},
+      {"name":"Abbreviation","type":"string"},
+      {"name":"Agricultural Land( %)","type":"string"},
+      {"name":"Land Area(Km2)","type":"string"},
+      {"name":"Armed Forces size","type":"string"},
+      {"name":"Birth Rate","type":"double"},
+      {"name":"Calling Code","type":"bigint"},
+      {"name":"Capital/Major City","type":"string"},
+      {"name":"Co2-Emissions","type":"string"},
+      {"name":"CPI","type":"string"},
+      {"name":"CPI Change (%)","type":"string"},
+      {"name":"Currency-Code","type":"string"},
+      {"name":"Fertility Rate","type":"double"},
+      {"name":"Forested Area (%)","type":"string"},
+      {"name":"Gasoline Price","type":"string"},
+      {"name":"GDP","type":"string"},
+      {"name":"Gross primary education enrollment (%)","type":"string"},
+      {"name":"Gross tertiary education enrollment (%)","type":"string"},
+      {"name":"Infant mortality","type":"double"},
+      {"name":"Largest city","type":"string"},
+      {"name":"Life expectancy","type":"double"},
+      {"name":"Maternal mortality ratio","type":"bigint"},
+      {"name":"Minimum wage","type":"string"},
+      {"name":"Official language","type":"string"},
+      {"name":"Out of pocket health expenditure","type":"string"},
+      {"name":"Physicians per thousand","type":"double"},
+      {"name":"Population","type":"string"},
+      {"name":"Population: Labor force participation (%)","type":"string"},
+      {"name":"Tax revenue (%)","type":"string"},
+      {"name":"Total tax rate","type":"string"},
+      {"name":"Unemployment rate","type":"string"},
+      {"name":"Urban_population","type":"string"},
+      {"name":"Latitude","type":"double"},
+      {"name":"Longitude","type":"double"}
+    ],
     "userModified": true
   },
   "dkuProperties": [],
