@@ -29,8 +29,40 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": false,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "Gross tertiary education enrollment (%)"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    },
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "RemoveRowsOnEmpty",
+      "params": {
+        "columns": [
+          "Minimum wage"
+        ],
+        "keep": false,
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +89,45 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Abbreviation": 105,
+    "CPI Change (%)": 120,
+    "Gross tertiary education enrollment (%)": 300,
+    "Largest city": 127,
+    "Minimum wage_amount": 158,
+    "Agricultural Land( %)": 173,
+    "Latitude": 134,
+    "Currency-Code": 113,
+    "Land Area(Km2)": 120,
+    "GDP": 148,
+    "Fertility Rate": 134,
+    "Population": 120,
+    "Birth Rate": 134,
+    "Population: Labor force participation (%)": 300,
+    "Life expectancy": 134,
+    "Maternal mortality ratio": 195,
+    "Calling Code": 105,
+    "Minimum wage_currency_code": 210,
+    "Physicians per thousand": 188,
+    "Gasoline Price": 120,
+    "Infant mortality": 135,
+    "Minimum wage": 105,
+    "Density\n(P/Km2)": 128,
+    "Out of pocket health expenditure": 255,
+    "Co2-Emissions": 113,
+    "Longitude": 134,
+    "Forested Area (%)": 143,
+    "Unemployment rate": 143,
+    "Armed Forces size": 143,
+    "Capital/Major City": 150,
+    "Official language": 143,
+    "Country": 155,
+    "Total tax rate": 120,
+    "Gross primary education enrollment (%)": 300,
+    "Urban_population": 135,
+    "CPI": 134,
+    "Tax revenue (%)": 128
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
