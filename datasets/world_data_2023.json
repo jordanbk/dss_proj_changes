@@ -1,0 +1,214 @@
+{
+  "type": "UploadedFiles",
+  "managed": false,
+  "featureGroup": false,
+  "formatType": "csv",
+  "checklists": {
+    "checklists": []
+  },
+  "checks": [],
+  "customMeta": {
+    "kv": {}
+  },
+  "flowOptions": {
+    "virtualizable": false,
+    "rebuildBehavior": "NORMAL",
+    "crossProjectBuildBehavior": "DEFAULT"
+  },
+  "readWriteOptions": {
+    "preserveOrder": false,
+    "writeBuckets": 1,
+    "forceSingleOutputFile": false,
+    "defaultReadOrdering": {
+      "enabled": false,
+      "rules": []
+    }
+  },
+  "formatParams": {
+    "style": "excel",
+    "charset": "utf-8",
+    "separator": ",",
+    "quoteChar": "\"",
+    "escapeChar": "\\",
+    "maxRowChars": 100000000,
+    "dateSerializationFormat": "ISO",
+    "arrayMapFormat": "json",
+    "hiveSeparators": [
+      "\u0002",
+      "\u0003",
+      "\u0004",
+      "\u0005",
+      "\u0006",
+      "\u0007",
+      "\b"
+    ],
+    "skipRowsBeforeHeader": 0,
+    "parseHeaderRow": true,
+    "skipRowsAfterHeader": 0,
+    "probableNumberOfRecords": 35,
+    "normalizeBooleans": false,
+    "normalizeDoubles": true,
+    "readAdditionalColumnsBehavior": "INSERT_IN_DATA_WARNING",
+    "readMissingColumnsBehavior": "DISCARD_SILENT",
+    "readDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "writeDataTypeMismatchBehavior": "DISCARD_WARNING",
+    "fileReadFailureBehavior": "FAIL",
+    "compress": ""
+  },
+  "partitioning": {
+    "ignoreNonMatchingFile": false,
+    "considerMissingRequestedPartitionsAsEmpty": false,
+    "dimensions": []
+  },
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1691759438252,
+    "extendedProperties": {}
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1691759438252,
+    "extendedProperties": {}
+  },
+  "tags": [],
+  "params": {
+    "uploadBoxId": "9cce798daa1019e45eac3e87de286ed74e07fb13f27990043b6ee56476a78df3",
+    "uploadConnection": "Default (in DSS data dir.)",
+    "notReadyIfEmpty": false,
+    "filesSelectionRules": {
+      "mode": "ALL",
+      "excludeRules": [],
+      "includeRules": [],
+      "explicitFiles": []
+    }
+  },
+  "schema": {
+    "columns": [
+      {"name":"Country","type":"string"},
+      {"name":"Density\n(P/Km2)","type":"string"},
+      {"name":"Abbreviation","type":"string"},
+      {"name":"Agricultural Land( %)","type":"string"},
+      {"name":"Land Area(Km2)","type":"string"},
+      {"name":"Armed Forces size","type":"string"},
+      {"name":"Birth Rate","type":"string"},
+      {"name":"Calling Code","type":"string"},
+      {"name":"Capital/Major City","type":"string"},
+      {"name":"Co2-Emissions","type":"string"},
+      {"name":"CPI","type":"string"},
+      {"name":"CPI Change (%)","type":"string"},
+      {"name":"Currency-Code","type":"string"},
+      {"name":"Fertility Rate","type":"string"},
+      {"name":"Forested Area (%)","type":"string"},
+      {"name":"Gasoline Price","type":"string"},
+      {"name":"GDP","type":"string"},
+      {"name":"Gross primary education enrollment (%)","type":"string"},
+      {"name":"Gross tertiary education enrollment (%)","type":"string"},
+      {"name":"Infant mortality","type":"string"},
+      {"name":"Largest city","type":"string"},
+      {"name":"Life expectancy","type":"string"},
+      {"name":"Maternal mortality ratio","type":"string"},
+      {"name":"Minimum wage","type":"string"},
+      {"name":"Official language","type":"string"},
+      {"name":"Out of pocket health expenditure","type":"string"},
+      {"name":"Physicians per thousand","type":"string"},
+      {"name":"Population","type":"string"},
+      {"name":"Population: Labor force participation (%)","type":"string"},
+      {"name":"Tax revenue (%)","type":"string"},
+      {"name":"Total tax rate","type":"string"},
+      {"name":"Unemployment rate","type":"string"},
+      {"name":"Urban_population","type":"string"},
+      {"name":"Latitude","type":"string"},
+      {"name":"Longitude","type":"string"}
+    ],
+    "userModified": true
+  },
+  "dkuProperties": [],
+  "metrics": {
+    "probes": [
+      {
+        "type": "basic",
+        "enabled": true,
+        "computeOnBuildMode": "PARTITION",
+        "meta": {
+          "name": "Basic data",
+          "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "records",
+        "enabled": true,
+        "computeOnBuildMode": "NO",
+        "meta": {
+          "name": "Record count",
+          "level": 0
+        },
+        "configuration": {}
+      }
+    ],
+    "engineConfig": {
+      "padRunsWithMetrics": false,
+      "hive": {
+        "active": true,
+        "extraConf": []
+      },
+      "basic": {},
+      "dss": {
+        "active": true,
+        "selection": {
+          "useMemTable": false,
+          "filter": {
+            "distinct": false,
+            "enabled": false
+          },
+          "partitionSelectionMethod": "ALL",
+          "latestPartitionsN": 1,
+          "ordering": {
+            "enabled": false,
+            "rules": []
+          },
+          "samplingMethod": "FULL",
+          "maxRecords": -1,
+          "targetRatio": 0.02,
+          "ascending": true,
+          "withinFirstN": -1,
+          "maxReadUncompressedBytes": -1
+        }
+      },
+      "sql": {
+        "active": true
+      },
+      "impala": {
+        "active": true
+      },
+      "spark": {
+        "active": true,
+        "extraConf": []
+      },
+      "python": {}
+    },
+    "displayedState": {
+      "columns": [],
+      "metrics": [
+        "basic:COUNT_COLUMNS",
+        "basic:COUNT_FILES",
+        "basic:SIZE",
+        "records:COUNT_RECORDS"
+      ]
+    }
+  },
+  "metricsChecks": {
+    "runOnBuild": false,
+    "checks": [],
+    "displayedState": {
+      "checks": []
+    }
+  },
+  "customFields": {}
+}
