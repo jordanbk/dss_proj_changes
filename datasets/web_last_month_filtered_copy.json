@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 2,
+    "versionNumber": 3,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1691793375667,
+    "lastModifiedOn": 1691793391069,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -95,7 +95,7 @@
     "columns": [
       {"name":"customer_id","type":"string"},
       {"name":"ip","type":"string"},
-      {"name":"pages_visited","type":"int"},
+      {"name":"pages_visited","type":"string"},
       {"name":"campain","type":"string"}
     ],
     "userModified": true
