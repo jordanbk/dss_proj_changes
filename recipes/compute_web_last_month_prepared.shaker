@@ -27,10 +27,71 @@
     },
     "autoRefreshSample": false
   },
-  "explorationFilters": [],
+  "explorationFilters": [
+    {
+      "validityFilter": {
+        "column": "campain",
+        "type": "validity",
+        "params": {
+          "nok": true,
+          "type": "Boolean",
+          "ok": true,
+          "empty": true
+        }
+      },
+      "column": "campain",
+      "active": true,
+      "alphanumFilter": {
+        "selectedValues": [],
+        "column": "campain",
+        "type": "alphanum",
+        "params": {
+          "mode": "full_string",
+          "normalization": "exact"
+        }
+      },
+      "type": "columnFilter",
+      "$$hashKey": "object:2768",
+      "facet": {
+        "columnType": "ALPHANUM",
+        "selectedValues": {
+          "True": true
+        },
+        "column": "campain",
+        "sort": "count",
+        "type": "facet",
+        "currentMode": "ALPHANUM"
+      },
+      "currentMode": "FACET"
+    }
+  ],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "FilterOnValue",
+      "params": {
+        "normalizationMode": "EXACT",
+        "booleanMode": "AND",
+        "columns": [
+          "campain"
+        ],
+        "values": [
+          "True"
+        ],
+        "matchingMode": "FULL_STRING",
+        "action": "KEEP_ROW",
+        "appliesTo": "SINGLE_COLUMN"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +118,12 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "pages_visited": 134,
+    "campain": 100,
+    "ip": 120,
+    "customer_id": 127
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
