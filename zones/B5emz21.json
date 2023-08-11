@@ -1,7 +1,44 @@
 {
   "name": "zone1",
   "color": "#C82423",
-  "items": [],
+  "items": [
+    {
+      "objectId": "web_last_month",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_web_last_month_filtered",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "web_last_month_filtered",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_web_last_month_filtered_copy",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "compute_web_last_month_filtered_prepared",
+      "objectType": "RECIPE"
+    },
+    {
+      "objectId": "web_last_month_filtered_copy",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "web_last_month_filtered_copy_copy1",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "web_last_month_filtered_prepared",
+      "objectType": "DATASET"
+    },
+    {
+      "objectId": "compute_web_last_month_filtered_copy_copy1",
+      "objectType": "RECIPE"
+    }
+  ],
   "shared": [],
   "tags": [],
   "customFields": {},
