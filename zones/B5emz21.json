@@ -19,10 +19,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "web_last_month_filtered_prepared",
-      "objectType": "DATASET"
-    },
-    {
       "objectId": "compute_web_last_month_filtered_copy_copy1",
       "objectType": "RECIPE"
     }
