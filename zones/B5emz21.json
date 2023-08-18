@@ -5,10 +5,6 @@
     {
       "objectId": "compute_web_last_month_filtered_prepared",
       "objectType": "RECIPE"
-    },
-    {
-      "objectId": "web_last_month_filtered_copy_copy1",
-      "objectType": "DATASET"
     }
   ],
   "shared": [],
