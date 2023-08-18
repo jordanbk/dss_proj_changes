@@ -1,12 +1,7 @@
 {
   "name": "zone1",
   "color": "#C82423",
-  "items": [
-    {
-      "objectId": "compute_web_last_month_filtered_prepared",
-      "objectType": "RECIPE"
-    }
-  ],
+  "items": [],
   "shared": [],
   "tags": [],
   "customFields": {},
