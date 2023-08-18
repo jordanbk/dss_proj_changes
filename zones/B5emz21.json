@@ -7,10 +7,6 @@
       "objectType": "DATASET"
     },
     {
-      "objectId": "compute_web_last_month_filtered",
-      "objectType": "RECIPE"
-    },
-    {
       "objectId": "compute_web_last_month_filtered_copy",
       "objectType": "RECIPE"
     },
