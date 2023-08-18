@@ -1,21 +1,21 @@
 {
   "type": "step_based",
   "name": "test2",
-  "active": true,
+  "active": false,
   "creationTag": {
-    "versionNumber": 0,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1692371124215,
-    "extendedProperties": {}
-  },
-  "versionTag": {
     "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
     "lastModifiedOn": 1692371130312,
+    "extendedProperties": {}
+  },
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "admin"
+    },
+    "lastModifiedOn": 1692371339669,
     "extendedProperties": {}
   },
   "checklists": {
@@ -45,7 +45,7 @@
         "minute": 5,
         "hour": 11,
         "timezone": "SERVER",
-        "lastUpdate": 1692371130313
+        "lastUpdate": 1692371339670
       }
     }
   ],
