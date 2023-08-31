@@ -6,7 +6,7 @@
     "metastoreSynchronizationEnabled": true,
     "metastoreTableName": "${odbId}",
     "connection": "jordan-s3-bucket",
-    "path": "/dataiku/${projectKey}/${odbId}",
+    "path": "/images/Images/",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
@@ -92,11 +92,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1693502854519,
+    "lastModifiedOn": 1693502873965,
     "extendedProperties": {}
   },
   "creationTag": {
