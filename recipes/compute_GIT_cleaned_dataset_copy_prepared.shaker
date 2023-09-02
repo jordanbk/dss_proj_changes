@@ -40,7 +40,7 @@
       "disabled": false,
       "type": "CreateColumnWithGREL",
       "params": {
-        "expression": "coalesce(Airline, Class, Source)",
+        "expression": "coalesce(Journey_day, Class, Departure)",
         "column": "newcolumn_expression"
       },
       "alwaysShowComment": false
