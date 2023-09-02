@@ -29,11 +29,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1693661041810,
+    "lastModifiedOn": 1693661070009,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -69,8 +69,8 @@
       {"name":"Flight_code","type":"string"},
       {"name":"Class","type":"string"},
       {"name":"Source","type":"string"},
-      {"name":"newcolumn_expression","type":"string"},
       {"name":"Departure","type":"string"},
+      {"name":"newcolumn_expression","type":"string"},
       {"name":"Total_stops","type":"string"},
       {"name":"Arrival","type":"string"},
       {"name":"Destination","type":"string"},
