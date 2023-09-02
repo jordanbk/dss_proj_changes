@@ -29,8 +29,23 @@
   },
   "explorationFilters": [],
   "columnUseScientificNotationByName": {},
-  "exploreUIParams": {},
-  "steps": [],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
+  "steps": [
+    {
+      "preview": true,
+      "metaType": "PROCESSOR",
+      "disabled": false,
+      "type": "CreateColumnWithGREL",
+      "params": {
+        "expression": "coalesce(Airline, Class, Source)",
+        "column": "newcolumn_expression"
+      },
+      "alwaysShowComment": false
+    }
+  ],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
@@ -57,7 +72,22 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "Journey_day": 100,
+    "Destination": 127,
+    "Airline": 100,
+    "newcolumn_expression": 165,
+    "Total_stops": 100,
+    "Arrival": 100,
+    "Flight_code": 100,
+    "Source": 100,
+    "Fare": 100,
+    "Days_left": 100,
+    "Duration_in_hours": 143,
+    "Departure": 113,
+    "Class": 120,
+    "Date_of_journey": 128
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
