@@ -1,0 +1,40 @@
+{
+  "projectExportManifest": {
+    "exportUploads": false,
+    "exportAllInputDatasets": false,
+    "exportAllDatasets": false,
+    "exportManagedFS": false,
+    "exportAnalysisModels": false,
+    "exportSavedModels": false,
+    "exportModelEvaluationStores": false,
+    "exportProjectResources": false,
+    "exportLabelingTasks": false,
+    "exportManagedFolders": false,
+    "exportAllInputManagedFolders": false,
+    "exportInsightsData": false,
+    "includedDatasetsData": [],
+    "includedSavedModels": [],
+    "includedManagedFolders": [],
+    "includedModelEvaluationStores": [],
+    "includedCodeStudios": [],
+    "includedLabelingTasks": [],
+    "exportGitRepository": false
+  },
+  "instanceFeatures": {
+    "showFlowNavLink": false,
+    "showLabNavLink": false,
+    "showCodeNavLink": false,
+    "showSwitchToProjectViewButton": true,
+    "showVersionControlFeatures": false
+  },
+  "useAppHomepage": true,
+  "homepageSections": [],
+  "label": "test_git",
+  "shortDesc": "The template *test_git* was created by Administrator on Sep 05th 2023",
+  "tags": [],
+  "instantiationPermission": "USE_APP_MASTER_PERMISSIONS",
+  "limitedVisibilityEnabled": "INHERIT",
+  "accessRequestsEnabled": "INHERIT",
+  "allowedMissingConnections": [],
+  "allowedMissingCodeEnvs": []
+}

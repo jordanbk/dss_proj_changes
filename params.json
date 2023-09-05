@@ -17,7 +17,7 @@
     "objects": []
   },
   "projectType": "REGULAR",
-  "projectAppType": "REGULAR",
+  "projectAppType": "APP_TEMPLATE",
   "hasSetupSection": false,
   "bundleExporterSettings": {
     "exportOptions": {
@@ -236,11 +236,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 16,
+    "versionNumber": 17,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1692371280291,
+    "lastModifiedOn": 1693934396193,
     "extendedProperties": {}
   },
   "creationTag": {
