@@ -25,6 +25,7 @@
     }
   },
   "formatParams": {
+    "style": "no_escape_no_quote",
     "charset": "utf8",
     "separator": "\t",
     "quoteChar": "\"",
@@ -60,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1693934626053,
+    "lastModifiedOn": 1693934633340,
     "extendedProperties": {}
   },
   "creationTag": {
