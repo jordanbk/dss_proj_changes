@@ -61,11 +61,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1693934633340,
+    "lastModifiedOn": 1693935390232,
     "extendedProperties": {}
   },
   "creationTag": {
@@ -78,7 +78,7 @@
   },
   "tags": [],
   "params": {
-    "folderSmartId": "GIT.kylzurXL",
+    "folderSmartId": "zhoka3T4",
     "notReadyIfEmpty": false,
     "filesSelectionRules": {
       "mode": "ALL",
