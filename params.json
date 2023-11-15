@@ -19,6 +19,16 @@
   "projectType": "REGULAR",
   "projectAppType": "APP_TEMPLATE",
   "hasSetupSection": false,
+  "bundleContainerSettings": {
+    "remapping": {
+      "connections": [],
+      "codeEnvs": []
+    },
+    "codeEnvsBehavior": {
+      "envImportSpecificationMode": "SPECIFIED",
+      "importTimeMode": "INSTALL_IF_MISS"
+    }
+  },
   "bundleExporterSettings": {
     "exportOptions": {
       "exportUploads": false,
@@ -144,11 +154,6 @@
     "k8sCluster": {
       "clusterMode": "INHERIT"
     },
-    "llmSettings": {
-      "offerDolly7B": true,
-      "offerFalcon7BInstruct": true,
-      "additionalHuggingFaceModels": []
-    },
     "virtualWebAppBackendSettings": {
       "mode": "INHERIT",
       "preventOverride": false,
@@ -236,11 +241,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 20,
+    "versionNumber": 21,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1693935279798,
+    "lastModifiedOn": 1700067728153,
     "extendedProperties": {}
   },
   "creationTag": {
