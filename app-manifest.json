@@ -28,7 +28,15 @@
     "showVersionControlFeatures": false
   },
   "useAppHomepage": true,
-  "homepageSections": [],
+  "homepageSections": [
+    {
+      "tiles": [
+        {
+          "type": "INLINE_DATASET_EDIT"
+        }
+      ]
+    }
+  ],
   "label": "test_git",
   "shortDesc": "The template *test_git* was created by Administrator on Sep 05th 2023",
   "tags": [],
