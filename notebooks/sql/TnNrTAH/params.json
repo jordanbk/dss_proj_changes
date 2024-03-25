@@ -6,6 +6,7 @@
     {
       "id": "r30cd0h3dk",
       "type": "QUERY",
+      "code": "DROP TABLE",
       "querySettings": {
         "addLimitToStatement": true,
         "statementsOutOfTransaction": false,
