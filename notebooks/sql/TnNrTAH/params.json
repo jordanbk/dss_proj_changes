@@ -2,7 +2,21 @@
   "analyzedDataset": "GIT_cleaned_dataset_copy",
   "connection": "postgresql",
   "name": "admin\u0027s sql notebook on GIT_cleaned_dataset_copy",
-  "cells": [],
+  "cells": [
+    {
+      "id": "r30cd0h3dk",
+      "type": "QUERY",
+      "querySettings": {
+        "addLimitToStatement": true,
+        "statementsOutOfTransaction": false,
+        "inheritConf": "default",
+        "extraConf": [],
+        "addDkuUdf": false,
+        "statementsParseMode": "SPLIT",
+        "statementsExecutionMode": "PREPARED"
+      }
+    }
+  ],
   "automationLocal": false,
   "creationTag": {
     "versionNumber": 0,
