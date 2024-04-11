@@ -33,19 +33,7 @@
   "exploreUIParams": {
     "autoRefresh": true
   },
-  "steps": [
-    {
-      "preview": true,
-      "metaType": "PROCESSOR",
-      "disabled": false,
-      "type": "CreateColumnWithGREL",
-      "params": {
-        "expression": "coalesce(Journey_day, Class, Departure)",
-        "column": "newcolumn_expression"
-      },
-      "alwaysShowComment": false
-    }
-  ],
+  "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
   "vizSampling": {
