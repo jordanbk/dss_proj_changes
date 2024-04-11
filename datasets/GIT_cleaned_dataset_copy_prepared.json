@@ -26,15 +26,12 @@
   "partitioning": {
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": []
-  },
-  "versionTag": {
-    "versionNumber": 2,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1693661070009,
-    "extendedProperties": {}
+    "dimensions": [
+      {
+        "name": "Airline",
+        "type": "value"
+      }
+    ]
   },
   "creationTag": {
     "versionNumber": 0,
@@ -100,6 +97,16 @@
         "meta": {
           "name": "Record count",
           "level": 0
+        },
+        "configuration": {}
+      },
+      {
+        "type": "partitioning",
+        "enabled": true,
+        "computeOnBuildMode": "WHOLE_DATASET",
+        "meta": {
+          "name": "Partitioning statistics",
+          "level": 1
         },
         "configuration": {}
       }
