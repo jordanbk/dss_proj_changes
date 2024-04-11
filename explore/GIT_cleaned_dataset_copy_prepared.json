@@ -39,9 +39,17 @@
           "distinct": false,
           "enabled": false
         },
-        "partitionSelectionMethod": "ALL",
+        "partitionSelectionMethod": "SELECTED",
         "selectedPartitions": [
-          "Vistara"
+          "Vistara",
+          "StarAir",
+          "SpiceJet",
+          "Indigo",
+          "GO FIRST",
+          "AllianceAir",
+          "AkasaAir",
+          "AirAsia",
+          "Air India"
         ],
         "latestPartitionsN": 1,
         "ordering": {
@@ -56,7 +64,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1712845230521
+      "_refreshTrigger": 1712845577105
     },
     "vizSampling": {
       "selection": {
