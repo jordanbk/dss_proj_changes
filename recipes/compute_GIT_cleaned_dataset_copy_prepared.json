@@ -54,14 +54,7 @@
       "items": [
         {
           "ref": "GIT_cleaned_dataset_copy",
-          "deps": [
-            {
-              "idim": "Airline",
-              "func": "all_available",
-              "params": {},
-              "expandVariables": false
-            }
-          ]
+          "deps": []
         }
       ]
     }

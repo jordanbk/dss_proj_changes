@@ -26,12 +26,7 @@
   "partitioning": {
     "ignoreNonMatchingFile": false,
     "considerMissingRequestedPartitionsAsEmpty": false,
-    "dimensions": [
-      {
-        "name": "Airline",
-        "type": "value"
-      }
-    ]
+    "dimensions": []
   },
   "creationTag": {
     "versionNumber": 0,
