@@ -36,7 +36,10 @@
         "pipelineAllowStart": true,
         "pipelineAllowMerge": true
       },
-      "maxThreads": 8
+      "maxThreads": 8,
+      "containerSelection": {
+        "containerMode": "INHERIT"
+      }
     }
   },
   "customMeta": {
@@ -51,7 +54,14 @@
       "items": [
         {
           "ref": "GIT_cleaned_dataset_copy",
-          "deps": []
+          "deps": [
+            {
+              "idim": "Airline",
+              "func": "all_available",
+              "params": {},
+              "expandVariables": false
+            }
+          ]
         }
       ]
     }
@@ -67,14 +77,6 @@
     }
   },
   "labels": [],
-  "versionTag": {
-    "versionNumber": 2,
-    "lastModifiedBy": {
-      "login": "admin"
-    },
-    "lastModifiedOn": 1693661076421,
-    "extendedProperties": {}
-  },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
