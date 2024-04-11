@@ -39,7 +39,7 @@
           "distinct": false,
           "enabled": false
         },
-        "partitionSelectionMethod": "SELECTED",
+        "partitionSelectionMethod": "ALL",
         "selectedPartitions": [
           "Vistara",
           "StarAir",
@@ -64,7 +64,7 @@
         "maxReadUncompressedBytes": -1
       },
       "autoRefreshSample": false,
-      "_refreshTrigger": 1712845577105
+      "_refreshTrigger": 1712845694956
     },
     "vizSampling": {
       "selection": {
