@@ -97,7 +97,6 @@
       {"name":"Class","type":"string"},
       {"name":"Source","type":"string"},
       {"name":"Departure","type":"string"},
-      {"name":"newcolumn_expression","type":"string"},
       {"name":"Total_stops","type":"string"},
       {"name":"Arrival","type":"string"},
       {"name":"Destination","type":"string"},
