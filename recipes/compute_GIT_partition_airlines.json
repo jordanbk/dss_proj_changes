@@ -67,8 +67,7 @@
             {
               "out": "GIT_partition_airlines",
               "idim": "Airline",
-              "odim": "Airline",
-              "func": "equals",
+              "func": "all_available",
               "params": {},
               "expandVariables": false
             }
